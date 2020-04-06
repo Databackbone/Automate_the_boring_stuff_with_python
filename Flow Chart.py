@@ -1,8 +1,9 @@
 print('Hello Flow Chart')
 #Boolean types
 
-erraten = False
-while not erraten:
+
+
+def questions(erraten):
     my_age = int(input('wie alt bin ich? 30  '))
     my_cat = input('tipe in Bernd  ')
 
@@ -11,4 +12,8 @@ while not erraten:
         erraten = True
     else:
         print('Das ist leider nicht richtig versuche es nochmal')
+    return erraten
+erraten = False
+while not erraten:
+     erraten = questions(erraten)
 
