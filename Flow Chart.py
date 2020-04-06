@@ -1,8 +1,6 @@
 print('Hello Flow Chart')
 #Boolean types commit
 
-
-
 def questions(erraten):
     my_age = int(input('wie alt bin ich? 30  '))
     my_cat = input('tipe in Bernd  ')
