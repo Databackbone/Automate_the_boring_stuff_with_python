@@ -24,5 +24,9 @@ print(*my_favorites[0], sep = ' and ')
 
 print('my overall favorite is ' + my_favorites[0][0])
 
+#if you have long lists you dont want to count or if you added a new element you want to get the last one
+#negative indexes will do the job
+
+print(fav_food[-1])
 
 #slicing list with split
