@@ -23,3 +23,6 @@ print(*my_favorites[0], sep = ' and ')
 #if you want to get the value of the first element of the first list
 
 print('my overall favorite is ' + my_favorites[0][0])
+
+
+#slicing list with split
